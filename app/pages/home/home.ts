@@ -5,7 +5,7 @@ import {Camera} from 'ionic-native';
   templateUrl: 'build/pages/home/home.html'
 })
 export class HomePage {
-  public photo: string;
+  public photo: string = 'http://wvs.topleftpixel.com/photos/2011/03/allen-gardens_snow_dog-walker_bw_01.jpg';
   constructor() {
 
   }
